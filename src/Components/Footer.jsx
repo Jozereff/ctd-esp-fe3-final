@@ -1,10 +1,17 @@
-import React from 'react'
 
 const Footer = () => {
   return (
     <footer>
-        <p>Powered by</p>
-        <img src="./img/DH.png" alt='DH-logo' />
+      <section>
+      <ul>
+        <img src="./../../public/DH.ico" alt="" />
+        <img src="./../../public/images/ico-facebook.png" alt="" width={"50"}/>
+        <img src="./../../public/images/ico-instagram.png" alt="" width={"50"}/>
+        <img src="./../../public/images/ico-whatsapp.png" alt="" width={"50"}/>
+        <img src="./../../public/images/ico-tiktok.png" alt="" width={"50"}/>
+      </ul>
+      </section>
+
     </footer>
   )
 }
