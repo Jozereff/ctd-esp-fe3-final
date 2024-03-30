@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom"
 import { routes } from "./utils/routes"
 
-const Navbar = (theme, setTheme) => {
+const Navbar = ({theme, setTheme}) => {
 
 
   const changeTheme = () => {
